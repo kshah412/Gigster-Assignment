@@ -1,0 +1,72 @@
+Assignment 1: Test Plan "Rent" Functionality - Uber Mobile Webpage
+
+Introduction:
+Purpose: This test plan outlines the testing approach for validating the "Rent" functionality on the Uber mobile website.
+
+Scope: The testing will focus on the user experience and functionality related to renting a car through the Uber platform on mobile devices.
+
+Objectives:
+Ensure the "Rent" feature is visible, clickable and user-friendly 
+Verify driving age dropdown option is available 
+Verify that users can easily search for available rental cars based on their location and date/time range.
+Validate the booking process, including selecting a car, choosing rental dates, and completing the reservation.
+Confirm that users receive accurate pricing information(based on age) and rental details before finalizing the booking 
+If API’s are available, verify the integration with third-party rental car providers to ensure seamless availability and booking.
+Assess the security to identify and mitigate potential vulnerabilities that could compromise user data or system integrity.
+Verify the feature is accessible to users with disabilities and complies with accessibility standards
+Validate the functionality and user experience across different languages, cultures, and regions.
+Verify the page gracefully handles errors, even in offline mode or with limited connectivity.
+Validate the performance under various load conditions to ensure responsiveness and stability.
+
+Testing Approach:
+Manual Testing: Testers will perform exploratory testing to evaluate the user interface and functionality of the "Rent" feature on various mobile devices to discover issues organically and provide immediate feedback.
+Automated Testing: Where applicable, automated tests will be developed using approved tools (Selenium/Cypress) to validate critical workflows and functionalities. Regression test suite is a great candidate for this type of testing.
+Compatibility Testing: The feature will be tested across different mobile devices (e.g., iOS, Android) and screen sizes to ensure compatibility and consistent performance.
+Usability Testing: A focus group of users will be engaged to provide feedback on the ease of use, clarity of instructions, and overall satisfaction with the rental experience on mobile devices.
+UAT: Real users or representatives from the target audience to validate the functionality.
+Regression Testing: Periodically retest the feature and its related functionalities to ensure that recent changes or updates have not introduced new defects or regressions.
+
+Test Scenarios:
+Search for Rental Cars:
+-Verify that users can enter their location and rental dates to search for available cars on the Uber mobile website.
+-Test the filtering options to refine search results based on car type, price, and other preferences.
+Booking Process:
+-Validate the process of selecting a car, reviewing rental details, and confirming the reservation on mobile devices.
+-Test the handling of errors or discrepancies during the booking process, such as invalid dates or unavailable cars.
+User Experience Testing:
+-Assess the overall user experience, including the clarity of instructions, ease of navigation, and responsiveness of the interface on mobile devices.
+Cancellation Process:
+-Verify that the cancellation request is processed successfully and confirm that the user receives a cancellation confirmation message.
+-Check if any cancellation fees are applied as per the cancellation policy.
+Modification of Booking:
+-Confirm that the changes are reflected accurately in the booking details when modified details like such as pickup/drop-off location, rental dates, or car type.
+Promotional Offers:
+-Verify that the discount is applied correctly to the rental price when a valid promotional code or discount offer is made during the booking process.
+Emergency Assistance:
+-Verify that the user can access the emergency assistance and receive prompt assistance.
+Refund Process:
+-Verify that the user can request a refund for a canceled reservation.
+
+Test Environment:
+Devices:
+iOS and Android smartphones/tablets.
+Emulators/simulators for device diversity.
+Operating Systems:
+iOS versions from iOS 11 onwards.
+Android versions from Android 8.0 (Oreo) onward
+Browsers: Safari and Chrome for mobile browsers and desktop browsers for simulation.
+Network Conditions: Test on Wi-Fi (stable, high-speed) and cellular data (3G, 4G/LTE).
+Test Data: Realistic and anonymized test data.
+Environmental Configurations: Mirror production environments for accuracy.
+
+Defect Management:
+Defects identified during testing will be logged in Jira or any defect tracking system with detailed descriptions, screenshots, and steps to reproduce.
+Defects will be prioritized based on severity and impact on the user experience
+Tickets will be tracked throughout for resolution.
+
+Testing Timeline:
+Testing activities will commence upon completion of design and development and will be conducted iteratively throughout the testing phase.
+
+Conclusion:
+Upon successful completion of testing and resolution of any identified issues, the feature will be deemed ready for release.
+Final approval for release will be granted based on the validation and deliverables of all test objectives and acceptance criteria outlined in this test plan.
