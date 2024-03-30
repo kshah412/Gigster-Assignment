@@ -1,0 +1,29 @@
+Assignment 2: Positive and Negative Scenarios
+
+Positive Scenario: Successful Car Rental Booking
+Description: In this scenario, the user successfully books a car rental
+Steps:
+Open the app/webpage, login with a valid account and navigate to the "Rent" section.
+Enter the age, desired location, pickup date, and return date
+Tap on the "Search" or "Find Cars" button to initiate the search process.
+Verify that the search results display available rental cars based on the entered criteria.
+Select a car from the search results by tapping on the "Rent Now" or similar button.
+Review the rental details, including car type, rental dates, features, extras, pricing, and any additional fees.
+Confirm the booking to reserve the car.
+Verify that the booking confirmation page displays a confirmation message and provides the booking reference number.
+Check the user's email inbox for the booking confirmation email and verify that all details are accurate.
+Expected Outcome:
+The user successfully completes the booking process and receives a confirmation email with the booking details. The selected car is reserved for the specified rental dates, and the user can proceed with their travel plans confidently.
+
+Negative Scenario: Invalid Return Date
+Description:
+In this scenario, the user enters an invalid return date in the "Rent" form, leading to an error during the booking process.
+Steps:
+Open the app/webpage, login with a valid account and navigate to the "Rent" section.
+Enter the desired location, make the date/time same for pickup and drop off date , for ex: April 1st 2024 12 pm
+Verify it displays an error message "Return time must be after Pick-up time"
+Attempt to correct the return date to a valid future date and repeat the booking process.
+Confirm reservation details and verify that the booking is successful and the confirmation message is displayed.
+Expected Outcome:
+The website detects the invalid date/time and displays an appropriate error message to the user.
+After correcting the return date to a valid future date, the user is able to successfully complete the booking process without encountering any further issues.
